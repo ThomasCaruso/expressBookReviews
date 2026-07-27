@@ -1,0 +1,10 @@
+COMMAND
+curl -sS -b cookies.txt -X PUT 'http://localhost:5000/customer/auth/review/1?review=Powerful%20and%20timeless.'
+
+OUTPUT
+{
+  "message": "Review successfully added or updated.",
+  "reviews": {
+    "thomas": "Powerful and timeless."
+  }
+}
