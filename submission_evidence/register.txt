@@ -1,5 +1,5 @@
 COMMAND
-curl -sS -X POST http://localhost:5000/register -H 'Content-Type: application/json' -d '{"username":"thomas","password":"Dubai2026!"}'
+curl -sS -X POST http://localhost:5000/register -H 'Content-Type: application/json' -d '{"username":"testuser","password":"password123"}'
 
 OUTPUT
 {
