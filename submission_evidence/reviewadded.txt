@@ -5,6 +5,6 @@ OUTPUT
 {
   "message": "Review successfully added or updated.",
   "reviews": {
-    "thomas": "Powerful and timeless."
+    "testuser": "Powerful and timeless."
   }
 }
